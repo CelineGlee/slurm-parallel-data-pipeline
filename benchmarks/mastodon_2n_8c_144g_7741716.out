@@ -1,0 +1,81 @@
+
+rank 7 starts from 134672016353 and ends at 153910875839.
+
+Rank 7 process time before reduction: 248.5069 seconds
+
+rank 3 starts from 57716578437 and ends at 76955437916.
+
+Rank 3 process time before reduction: 248.9472 seconds
+
+rank 5 starts from 96194297395 and ends at 115433156874.
+
+Rank 5 process time before reduction: 253.6201 seconds
+
+rank 6 starts from 115433156874 and ends at 134672016353.
+
+Rank 6 process time before reduction: 249.0504 seconds
+
+rank 1 starts from 19238859479 and ends at 38477718958.
+
+Rank 1 process time before reduction: 242.8374 seconds
+
+rank 2 starts from 38477718958 and ends at 57716578437.
+
+Rank 2 process time before reduction: 248.2329 seconds
+
+rank 4 starts from 76955437916 and ends at 96194297395.
+
+Rank 4 process time before reduction: 242.2787 seconds
+
+rank 0 starts from 0 and ends at 19238859479.
+
+Rank 0 process time before reduction: 244.9616 seconds
+Longest running rank time before sorting: 255.2841 seconds
+
+Happiest Hours:
+2024-12-25 15: 114.60195453225167
+2024-12-24 22: 117.28631361201208
+2025-01-01 05: 135.9252174344684
+2024-12-31 23: 187.465476632202
+2025-01-01 00: 206.15209972304456
+
+Saddest Hours:
+2024-11-06 07: -373.76724797383497
+2024-09-11 01: -305.57606693741025
+2025-01-30 17: -256.5684250419817
+2025-01-30 18: -226.90971970072644
+2025-02-03 16: -223.83348768435087
+
+Happiest Users:
+('110006430181118061', 'hnbot'): 1917.7935878054188
+('113541715572887376', 'choochoo'): 1978.7431011025428
+('113441357479871732', 'EmojiAquarium'): 2086.4567379515915
+('112728392129924952', 'TheFigen_'): 2541.47422438919
+('110237351908820391', 'gameoflife'): 9105.741942204433
+
+Saddest Users:
+('109521050152429017', 'realTuckFrumper'): -9094.081275453718
+('109471254002284799', 'uavideos'): -5901.960347560851
+('113443732887173058', 'TheHindu'): -5710.722600655697
+('111873606251312850', 'uutisbot'): -4066.138170138108
+('112071598249945636', 'MissingYou'): -3341.6033381195402
+
+
+Detailed Timing Report:
+Rank 0: readline_time=47.8557s, tell_time=59.3413s, json_parse_time=130.3580s, dict_update_time=5.0313s, total_process_time=244.9616s
+Rank 1: readline_time=46.7220s, tell_time=58.2111s, json_parse_time=130.0330s, dict_update_time=5.5469s, total_process_time=242.8374s
+Rank 2: readline_time=48.6805s, tell_time=60.2027s, json_parse_time=131.6882s, dict_update_time=5.3039s, total_process_time=248.2329s
+Rank 3: readline_time=48.2893s, tell_time=60.3171s, json_parse_time=132.6560s, dict_update_time=5.3231s, total_process_time=248.9472s
+Rank 4: readline_time=41.8232s, tell_time=60.0039s, json_parse_time=132.0746s, dict_update_time=6.0088s, total_process_time=242.2787s
+Rank 5: readline_time=46.2048s, tell_time=62.0366s, json_parse_time=136.8268s, dict_update_time=6.1072s, total_process_time=253.6201s
+Rank 6: readline_time=45.7656s, tell_time=61.5780s, json_parse_time=133.2627s, dict_update_time=6.0552s, total_process_time=249.0504s
+Rank 7: readline_time=45.3408s, tell_time=60.6856s, json_parse_time=133.8852s, dict_update_time=6.1835s, total_process_time=248.5069s
+
+Maximum Times Across All Ranks:
+readline_time: 48.6805s
+tell_time: 62.0366s
+json_parse_time: 136.8268s
+dict_update_time: 6.1835s
+total_process_time: 253.6201s
+Total time on rank 0: 255.3940 seconds
+
